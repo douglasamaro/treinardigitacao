@@ -43,21 +43,15 @@ label {
 }
 
 .bloco1 label p {
-  font-size: 15px;
+  font-size: 18px;
   padding-left: 5%;
   text-align: right;
 }
 
 .bloco2 label p {
-  font-size: 15px;
+  font-size: 18px;
   padding-left: 5%;
   text-align: right;
-}
-.bloco1 button {
-  font-size: 15px;
-}
-.bloco2 button {
-  font-size: 15px;
 }
 
 .div1 {
@@ -186,6 +180,12 @@ footer p {
   }
 
   .bloco2 label p {
+    font-size: 13.5px;
+  }
+  .bloco1 button {
+    font-size: 13.5px;
+  }
+  .bloco2 button {
     font-size: 13.5px;
   }
 
