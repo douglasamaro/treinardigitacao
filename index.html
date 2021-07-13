@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Melhore sua digitçaõ e seja mais rápido</title>
+
+</head>
+<body>
+    <p class="titulo">Treine Sua digitação</p>
+    <div class="container">
+       <div class="div1">
+            <div class="bloco1">
+                <label for="textarea1"><button onClick="a1()">+A</button> <button onClick="d1()">-a</button><P>Cole o texto que vai copiar </P></label>
+                <textarea name="" id="textarea1" class="acessibilidade" cols="30" rows="10"></textarea>
+            </div>
+            <div class="bloco2">
+                <label for="textarea2"><button onClick="a()">+A</button> <button onClick="d()">-a</button><P> Digite o Texto aqui </P></label>
+                <textarea name="" id="textarea2" class="acessibilidade" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+        <div class="div2">
+             <div class="bloco3"><img src="digitation tryning.jpg" id="img" alt="imagem de uma mão com as teclas respectivas aos dedos"></div>
+       
+        </div>
+    </div>
+<section class="conteudo">
+    <div class="conteudo-ct">
+
+
+<h1>Domínio da digitação</h1>
+<p>
+    Atualmente, grande parte das profissões exigem o uso de um computador. Por exemplo, advogados, funcionários de call center, programadores e redatores e etc. 
+
+    Esses são apenas alguns exemplos. Mas, há outros que podem se beneficiar de um curso de digitação, como:
+</p>
+    
+<li>Profissionais de secretariado executivo;</li>
+<li>Contadores, analistas contábeis e fiscais, técnicos em contabilidade e finanças;</li>
+<li>Assistentes virtuais que trabalham com hospedagem de sites;</li>
+<li>Bibliotecários, em geral;</li>
+<li>Almoxarifes e arquivistas;</li>
+<li>Historiadores e museólogos;</li>
+<li>Administradores.</li>
+<p>
+Suponha que você passe muito tempo na frente de um notebook ou computador desktop. Sem dúvida, digitar já faz parte da sua rotina. Porém, existe um modo correto de fazê-lo para evitar lesões. Pois, caso seja feita da forma errada, causa dores e desconfortos.
+
+Para contornar esses possíveis transtornos, há cursos para isso. Então, além de impedir problemas de saúde, é um diferencial no competitivo mercado de trabalho.
+</p>
+<br>
+
+<h1>Curso de digitação é um diferencial para o currículo</h1>
+<p>O Brasil vem enfrentando uma grande crise financeira. Desse modo, o número de pessoas desempregadas é alto. Bem como, a disputa por uma vaga de emprego.
+
+    Devido a isso, é essencial se destacar dos demais candidatos. Portanto, melhorar certas habilidades é fundamental. Por exemplo, a capacidade de digitação. 
+    
+    Para quem sonha em passar em um concurso público, é essencial. Porque, quem não possui as técnicas de digitação adequadas, acaba sendo eliminado.
+    
+    Já algumas entrevistas de emprego já realizam testes práticos para avaliar a aptidão do profissional. Então, mesmo que digitar já seja algo cotidiano na vida, há fatores a serem analisados.</p>
+<br>
+
+<h1>Curso de digitação otimiza o tempo de estudo</h1>
+<p>Para estudantes, universitários e concurseiros, digitar de forma rápida facilita nos estudos. Além disso, melhora a técnica e amplia o conhecimento. 
+
+    Também aumenta a produtividade. Contudo, deve ser feito da maneira correta. Dessa forma, quando você tem cuidado com o teclado, os benefícios são diversos, como:
+    
+    </p>
+<li>Fica mais rápido corrigir qualquer erro de escrita;</li>
+<li>Não é preciso ficar horas digitando para concluir uma atividade;</li>
+<li>Ajuda no foco, em consequência, você fica mais concentrado no conteúdo;
+</li>
+<li>Quanto maior o conhecimento sobre as teclas, menos erros durante o trabalho. </li>
+<p>O curso de digitação vai te mostrar como digitar da melhor forma. Pois, essa habilidade exige treino diário, de até 30 minutos.
+
+    Ao seguir essa dica, você notará diferença já no primeiro mês. Por outro lado, essa sugestão também é válida para quem vai fazer concurso. A fim de se sair bem nos testes práticos.</p>
+<br>
+<button onclick="" class="cta">Curso de Digitação</button>
+<div class="anuncio">
+
+</div>
+</section>
+<footer>
+    <p>Feito por Douglas Amaro </p>
+</footer>
+
+
+    <script>
+function a1(){
+var font = document.getElementById("textarea1").style.fontSize;
+font = font.replace("px","");
+if(font == ""){		 
+document.getElementById("textarea1").style.fontSize = "15px";
+}else{
+document.getElementById("textarea1").style.fontSize = (parseInt(font)+1)+"px";
+}
+}
+
+function d1(){
+var font = document.getElementById("textarea1").style.fontSize;
+font = font.replace("px","");
+if(font == ""){		 
+document.getElementById("textarea1").style.fontSize = "15px";
+}else{
+document.getElementById("textarea1").style.fontSize = (parseInt(font)-1)+"px";
+}
+}
+
+function a(){
+var font = document.getElementById("textarea2").style.fontSize;
+font = font.replace("px","");
+if(font == ""){		 
+document.getElementById("textarea2").style.fontSize = "15px";
+}else{
+document.getElementById("textarea2").style.fontSize = (parseInt(font)+1)+"px";
+}
+}
+
+function d(){
+var font = document.getElementById("textarea2").style.fontSize;
+font = font.replace("px","");
+if(font == ""){		 
+document.getElementById("textarea2").style.fontSize = "15px";
+}else{
+document.getElementById("textarea2").style.fontSize = (parseInt(font)-1)+"px";
+}
+}
+    
+
+    </script>
+</body>
+</html>
